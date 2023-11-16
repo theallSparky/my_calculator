@@ -109,3 +109,10 @@ const calculate = (firstOperand, secondOperand, operator) => {
     }
     return secondOperand
 }
+
+const resetCalculator = () => {
+    calculator.displayValue = '0',
+    calculator.firstOperand = null,
+    calculator.waitingForSecondOperand = false,
+    calculator.operator = null
+}
